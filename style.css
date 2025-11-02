@@ -65,6 +65,24 @@ body {
 
 }
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    display: none;
+    list-style: none;
+    
+}
+
+.dropdown:hover .dropdown-content  {
+    display: block;
+}
+
 /* Hero Section */
 .hero {
     display: flex;
