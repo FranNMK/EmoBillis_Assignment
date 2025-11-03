@@ -73,7 +73,7 @@ body {
     position: absolute;
     top: 100%;
     left: 0;
-    background: #fff;
+    background: white;
     display: none;
     list-style: none;
     
@@ -89,7 +89,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 80px 8%;
-    background: #f8f8f8;
+    background: whitesmoke;
     flex-wrap: wrap;
 }
 
@@ -166,6 +166,12 @@ body {
     letter-spacing: 2px;
     margin-bottom: 10px;
     text-align: center;
+    background-color: white;
+    
+}
+
+.about-content {
+    padding: auto;
 }
 
 .about h2 {
